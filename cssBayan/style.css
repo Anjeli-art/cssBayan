@@ -153,7 +153,7 @@ input[type="radio"] {
 
 @media (max-width: 1200px) {
   .container {
-    max-width: 400px;
+    max-width: 25rem;
     width: 100%;
   }
 
@@ -168,7 +168,7 @@ input[type="radio"] {
 
 @media (max-width: 920px) {
   .container {
-    max-width: 350px;
+    max-width: 22rem;
     width: 100%;
   }
 
@@ -207,7 +207,7 @@ input[type="radio"] {
 
 @media (max-width: 440px) {
   .container {
-    max-width: 280px;
+    max-width: 18rem;
     width: 100%;
   }
 
