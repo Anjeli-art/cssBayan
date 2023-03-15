@@ -123,6 +123,14 @@ input[type="radio"] {
   transition: max-height 0.7s;
 }
 
+.accordeon__mem-item:active .accordeon-title span {
+  color: #367188;
+}
+
+.accordeon__mem-item:active .accordeon__title-img path {
+  fill: #367188;
+}
+
 .accordeon__mem-label > input[type="radio"]:checked ~ .accordeon__mem-content {
   max-height: 45vh;
 }
@@ -131,7 +139,7 @@ input[type="radio"] {
   color: black;
 }
 
-.accordeon__mem-label > input[type="radio"]:checked ~ .accordeon-title img {
+.accordeon__mem-label > input[type="radio"]:checked ~ .accordeon-title svg {
   transform: rotate(45deg);
 }
 
@@ -139,7 +147,7 @@ input[type="radio"] {
   color: black;
 }
 
-.accordeon:hover .accordeon-title img {
+.accordeon:hover .accordeon-title svg {
   opacity: 1;
 }
 
